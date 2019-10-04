@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DailyExpense</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_expenses">Expenses</string>
+
+    <string-array name="expense_types">
+
+        <item>Select expense type</item>
+        <item>Transport</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Shopping</item>
+        <item>Grocery</item>
+        <item>Bills and Payments</item>
+    </string-array>
+
+    <string-array name="image_options">
+
+        <item>Add Document (if any)</item>
+        <item>Open Camera</item>
+        <item>Open Gallery</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

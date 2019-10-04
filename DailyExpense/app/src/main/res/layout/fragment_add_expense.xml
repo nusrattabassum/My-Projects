@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddExpenseFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Add Expense"
+        app:titleTextColor="#FFFFFF">
+    </androidx.appcompat.widget.Toolbar>
+
+        <Spinner
+            android:id="@+id/spinnerAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="15dp">
+
+        </Spinner>
+
+    <EditText
+        android:id="@+id/amountET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter expense amount"
+        android:textSize="16sp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/dateIV"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_date_range_black_24dp"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/dateTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pick expense date"
+            android:textColor="#000000"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/timeIV"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_access_time_black_24dp"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/timeTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pick expense time (optional) "
+            android:textColor="#000000"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_photo_library_black_24dp"
+            android:padding="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerImg"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="#7A00BCD4"
+            android:gravity="center"
+            android:spinnerMode="dialog"></Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addExpenseBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:text="Add expense"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="16sp"/>
+
+</LinearLayout>
