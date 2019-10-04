@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Bangla"
+            android:icon="@drawable/ic_bangla_papers_black_24dp"
+            android:title="Bangla Newspapers"/>
+
+        <item
+            android:id="@+id/nav_English"
+            android:icon="@drawable/ic_english_papers_black_24dp"
+            android:title="English Newspapers"/>
+
+        <item
+            android:id="@+id/nav_Online"
+            android:icon="@drawable/ic_online_news_black_24dp"
+            android:title="Online Newspapers"/>
+    </group>
+
+    <item
+        android:id="@+id/aboutInfo"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="About"/>
+
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Exit"/>
+</menu>
