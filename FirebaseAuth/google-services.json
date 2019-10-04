@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "387527983923",
+    "firebase_url": "https://projectbitm-d421f.firebaseio.com",
+    "project_id": "projectbitm-d421f",
+    "storage_bucket": "projectbitm-d421f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387527983923:android:a940de52124befa3",
+        "android_client_info": {
+          "package_name": "com.nts.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387527983923-sbibulhtmp565ilaj7e7m4uqvgik8hq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nts.firebaseauth",
+            "certificate_hash": "8c3cddbb4ede8d6380ca5604005aac40fab31c94"
+          }
+        },
+        {
+          "client_id": "387527983923-tl579oo000biamiq4803olqh79eda1ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdfNom5MXw3Vvj-WoUvYDIYKclKL2OXiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387527983923-tl579oo000biamiq4803olqh79eda1ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
